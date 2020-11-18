@@ -461,7 +461,6 @@ nav ul li a{
 }
 
 #brief-1, #brief-2, #brief-3, #brief-4{
-    background-color: #ffffff;
     color:black;
     padding:10px;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -821,7 +820,7 @@ nav ul li a{
         border-radius: 5px;
         margin-left: 50px;
         font-size: 10px;
-        width: 250px;
+        width: 220px;
         z-index: 3;
         height: auto;
     }
@@ -911,5 +910,15 @@ nav ul li a{
     }
     .card-body{
         padding-top:30px;
+    }
+    #brief-1, #brief-2, #brief-3, #brief-4{
+        padding:5px;
+        font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 5px;
+        margin-left: 50px;
+        font-size: 10px;
+        width: 150px;
+        z-index: 3;
+        height: auto;
     }
 }
