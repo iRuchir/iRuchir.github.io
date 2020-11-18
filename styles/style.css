@@ -65,6 +65,7 @@ body{
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #sidebar{
+    visibility: hidden;
     height:100vh;
     width:250px;
     position: fixed;
@@ -82,6 +83,7 @@ nav ul li a{
     text-decoration: none ;
 }
 .menuIcon{
+    visibility: hidden;
     top:35px;
     right:20px;
     z-index: 2;
@@ -798,7 +800,7 @@ nav ul li a{
         width:25px;
         height:25px;
         border-radius: 50%;
-        border: 10px solid white;
+        border: 8px solid white;
         background-color: #DF557A;
         display:inline-block;
         vertical-align: middle;
@@ -811,7 +813,7 @@ nav ul li a{
         width:25px;
         height:25px;
         border-radius: 50%;
-        border: 10px solid white;
+        border: 8px solid white;
         background-color: black;
         display:inline-block;
         vertical-align: middle;
@@ -868,6 +870,18 @@ nav ul li a{
 
 
 
-@media(max-width: 575px){
-
+@media(max-width: 370px){
+    .card{
+        height: auto;
+    }
+    .card-deck{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        margin-top:px;
+    }
+    .card-body{
+        padding-top:30px;
+        color: white;
+    }
 }
