@@ -475,3 +475,71 @@ nav ul li a{
     margin-left:-100px;
 }
 
+/* Footer */
+
+.footer{
+
+}
+.connect{
+    font-size: 30px;;
+    text-align: center;
+}
+.linkedin, .youtube, .facebook{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    font-family: Trebuchet, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linkedin:hover,  .youtube:hover, .facebook:hover{
+    color:black;
+    text-decoration: none;
+    align-items: center;
+}
+.linkedin{
+    color:#0A66C2;
+}
+.youtube{
+    color:#FF0000;
+}
+.facebook{
+    color:#2D88FF;
+}
+
+.social{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;;
+}
+
+/* Icon bar */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    color: white;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+  
+.icon-bar a:hover {
+    background-color: #000;
+  }
+.linkedin-s{
+    background-color:#0A66C2;color: white;
+}
+.youtube-s{
+    background-color:#FF0000;color: white;
+}
+.facebook-s{
+    background-color:#2D88FF;color: white;
+}
