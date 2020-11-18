@@ -719,8 +719,8 @@ nav ul li a{
         font-size: 30px;
     }
     .header-text{
-        margin-left: 55%;
-        padding-top: 380px;
+        margin-left: 300px;
+        padding-top: 400px;
         margin-right: 5%;
     }
     .designation{
@@ -741,14 +741,19 @@ nav ul li a{
     }
 }
 @media(max-width: 575px){
+    .card-header{
+        height:10px;
+        vertical-align: -50px;
+    }
     .card{
-        height: auto;
+        margin: 0px 5%;
+        height: 200px;
     }
     .card-deck{
         text-align: center;
         margin: 0 auto;
         float: none;
-        margin-top:10px;
+        margin-top:1px;
     }
     .perf-tool, .lang{
         height: fit-content;
@@ -905,6 +910,7 @@ nav ul li a{
 @media(max-width: 370px){
     .card{
         height: auto;
+        width: 200px;
     }
     #more{
         margin-left: -25px;;
