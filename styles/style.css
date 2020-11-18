@@ -834,30 +834,35 @@ nav ul li a{
         text-align: right;
         content:'Jan 2013';
         margin-left:-60px;
+        vertical-align: 100%;
     }
     .old-1::before{
         font-size: 10px;
         text-align: right;
         content:'Mar 2014';
         margin-left:-60px;
+        vertical-align: 100%;
     }
     .old-2::before{
         font-size: 10px;
         text-align: right;
         content:'Mar 2015';
         margin-left:-60px;
-        margin-top:-20px;
+        vertical-align: 100%;
     }
     .old-3::before{
         font-size: 10px;    
         content:'Sep 2016';
+        text-align: right;
         margin-left:-60px;
+        vertical-align: 100%;
     }
     .old-4::before{
         font-size: 10px;
         text-align: right;
         content:'Present';
         margin-left:-60px;
+        vertical-align: 100%;
     }
 }
 
