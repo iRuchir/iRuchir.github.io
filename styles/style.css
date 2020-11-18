@@ -720,8 +720,10 @@ nav ul li a{
     }
     .header-text{
         margin-left: 300px;
-        padding-top: 400px;
-        margin-right: 5%;
+        padding-top: 450px;
+    }
+    .title-bg{
+        background: rgba(0, 0, 0, 0.5);
     }
     .designation{
         margin-top: -10px;
