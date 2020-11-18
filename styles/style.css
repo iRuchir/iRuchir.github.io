@@ -522,6 +522,7 @@ nav ul li a{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 2;
   }
   
 .icon-bar a {
@@ -543,4 +544,179 @@ nav ul li a{
 }
 .facebook-s{
     background-color:#112130;color: white;
+}
+
+@media(max-width: 1140px){
+    .header{
+        height: 70vh;
+        background-image: url('../images/Home_denim_shadow_me.png');
+        background-size: cover;
+        background-repeat:none;
+    }
+    .header-text{
+        align-items: center;
+        margin-left: 40%;
+        padding-top: 200px;
+        margin-right: 5%;
+        color: white;
+    }
+    .card{
+        height: 30vh;
+        margin-top:20px;
+    }
+}
+@media(max-width: 1140px){
+    .Title{
+        font-size: 30px;
+    }
+    .header-text{
+        margin-left: 45%;
+        padding-top: 300px;
+        margin-right: 5%;
+    }
+    .designation{
+        margin-top: -10px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .desc{
+        margin-top:15px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .btn-cv{
+        margin-top: 10px;
+        padding: 5px 10px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .perf-tool, .lang{
+        height: 400px;
+        background-color: #112130;
+        color: white;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        margin-top:50px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .tools{
+        font-size: 15px;
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 1px solid white;
+    }
+    .progress{
+        height:20px;
+        margin-top:1rem;
+    }
+    .progress-bar{
+        height:20px;
+        color:white;
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+    .tool-set-1{
+        width:120px; 
+        float: left;
+        margin-top: 10px;
+    }
+    .tool-set-2{
+        width:240px; float: left;
+        margin-top: 10px;
+    }
+    .tool-set-3{
+        width:120px; float: left;
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 840px){
+    .header{
+        height: 100vh;
+        margin-left:-300px;
+        background-image: url('../images/Home_denim_shadow_me.png');
+        background-size: cover;
+        background-repeat:none;
+    }
+    .Title{
+        font-size: 35px;
+    }
+    .header-text{
+        margin-left: 55%;
+        padding-top: 500px;
+        margin-right: 5%;
+    }
+    .designation{
+        margin-top: -10px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .desc{
+        margin-top:15px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .btn-cv{
+        margin-top: 10px;
+        padding: 5px 10px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 575px){
+    .card{
+        height: auto;
+    }
+    .perf-tool, .lang{
+        height: 400px;
+        background-color: #112130;
+        color: white;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        margin-top:50px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .tools{
+        font-size: 15px;
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 1px solid white;
+    }
+    
+    .progress{
+        height:20px;
+        margin-top:1rem;
+    }
+    .progress-bar{
+        height:20px;
+        color:white;
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+    .tool-set-1{
+        width:120px; 
+        float: left;
+        margin-top: 10px;
+    }
+    .tool-set-2{
+        width:240px; float: left;
+        margin-top: 10px;
+    }
+    .tool-set-3{
+        width:120px; float: left;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media(max-width: 575px){
+
 }
