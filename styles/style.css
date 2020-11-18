@@ -21,6 +21,17 @@ body{
     padding: 0px;
     font-family: Gotham, 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+    0% {opacity:0; padding-top: 450px;}
+    100% {opacity:1;padding-top: 400px;}
+}
 .header{
     height: 100vh;
     background-image: url('../images/Home_denim_shadow_me.png');
@@ -28,6 +39,10 @@ body{
     background-repeat:none;
 }
 .container{
+}
+@keyframes fadeIn {
+    0% {opacity:0; padding-top: 450px;}
+    100% {opacity:1;padding-top: 400px;}
 }
 .header-text{
     margin-left: 60%;
@@ -590,6 +605,10 @@ nav ul li a{
 }
 
 @media(max-width: 1140px){
+    @keyframes fadeIn {
+        0% {opacity:0; padding-top: 250px;}
+        100% {opacity:1;padding-top: 200px;}
+    }
     .header{
         height: 70vh;
         background-image: url('../images/Home_denim_shadow_me.png');
@@ -610,6 +629,10 @@ nav ul li a{
 @media(max-width: 1140px){
     .Title{
         font-size: 30px;
+    }
+    @keyframes fadeIn {
+        0% {opacity:0; padding-top: 350px;}
+        100% {opacity:1;padding-top: 300px;}
     }
     .header-text{
         margin-left: 45%;
@@ -685,6 +708,10 @@ nav ul li a{
     .Title{
         font-size: 35px;
     }
+    @keyframes fadeIn {
+        0% {opacity:0; padding-top: 550px;}
+        100% {opacity:1;padding-top: 500px;}
+    }
     .header-text{
         margin-left: 55%;
         padding-top: 500px;
@@ -717,6 +744,10 @@ nav ul li a{
     }
     .Title{
         font-size: 30px;
+    }
+    @keyframes fadeIn {
+        0% {opacity:0; padding-top: 500px;}
+        100% {opacity:1;padding-top: 450px;}
     }
     .header-text{
         margin-left: 300px;
