@@ -434,6 +434,7 @@ nav ul li a{
 }
 .project-container-1, .project-container-2, .project-container-3, .project-container-4{
     margin-top:20px;
+    margin-left: -55px;
 }
 .dated{
 
