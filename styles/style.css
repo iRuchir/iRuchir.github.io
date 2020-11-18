@@ -668,19 +668,58 @@ nav ul li a{
     }
 }
 @media(max-width: 575px){
+    .header{
+        height: 100vh;
+        margin-left:-300px;
+        background-image: url('../images/Home_denim_shadow_me.png');
+        background-size: cover;
+        background-repeat:none;
+    }
+    .Title{
+        font-size: 30px;
+    }
+    .header-text{
+        margin-left: 55%;
+        padding-top: 380px;
+        margin-right: 5%;
+    }
+    .designation{
+        margin-top: -10px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .desc{
+        margin-top:15px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .btn-cv{
+        margin-top: 10px;
+        padding: 5px 10px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 575px){
     .card{
         height: auto;
     }
+    .card-deck{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        margin-top:10px;
+    }
     .perf-tool, .lang{
-        height: 400px;
+        height: fit-content;
         background-color: #112130;
         color: white;
         margin: 0 auto;
         float: none;
         margin-bottom: 10px;
-        margin-top:50px;
+        margin-top:20px;
         border-radius: 5px;
-        margin-bottom: 50px;
+        padding-bottom: 20px;;
     }
     .tools{
         font-size: 15px;
@@ -691,7 +730,6 @@ nav ul li a{
     
     .progress{
         height:20px;
-        margin-top:1rem;
     }
     .progress-bar{
         height:20px;
@@ -701,17 +739,125 @@ nav ul li a{
     }
 
     .tool-set-1{
-        width:120px; 
         float: left;
         margin-top: 10px;
     }
     .tool-set-2{
-        width:240px; float: left;
+        float: left;
         margin-top: 10px;
     }
     .tool-set-3{
-        width:120px; float: left;
+        float: left;
         margin-top: 20px;
+    }
+
+    .summary{
+        background-color: #112130;
+        width:150px;
+        color:white;
+        padding:10px;
+        padding-bottom: 0px;
+        border-radius: 5px;
+        margin-left: 50px;
+        position: relative;
+        height: fit-content;
+    }
+    .role{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .company{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .place{
+        margin-top: 20px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    #more{
+        margin-left: -25px;;
+    }
+
+    #brief-1, #brief-2, #brief-3, #brief-4{
+        background-color: #d2d2d2;
+        color:black;
+        padding:5px;
+        font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 5px;
+        margin-left: 50px;
+        font-size: 10px;
+        width: 250px;
+        z-index: 3;
+        height: auto;
+    }
+
+    .point{
+        position: relative;
+        /* top:85px; */
+        width:25px;
+        height:25px;
+        border-radius: 50%;
+        border: 10px solid white;
+        background-color: #DF557A;
+        display:inline-block;
+        vertical-align: middle;
+        border-style:double;
+        left:11px;
+    }
+    .old{
+        position: relative;
+        /* top:85px; */
+        width:25px;
+        height:25px;
+        border-radius: 50%;
+        border: 10px solid white;
+        background-color: black;
+        display:inline-block;
+        vertical-align: middle;
+        border-style:double;
+        left:11px;
+    }
+    .lineOfTime {
+        content: '';
+        position: relative;
+        margin-top: 20px;
+        left: 30px;
+        height: 100%;
+        width: 1px;
+        margin-left:10%;
+        background: #000000;
+        background: var(--cd-color-2);
+    }
+    .old-0::before{
+        font-size: 10px;
+        text-align: right;
+        content:'Jan 2013';
+        margin-left:-60px;
+    }
+    .old-1::before{
+        font-size: 10px;
+        text-align: right;
+        content:'Mar 2014';
+        margin-left:-60px;
+    }
+    .old-2::before{
+        font-size: 10px;
+        text-align: right;
+        content:'Mar 2015';
+        margin-left:-60px;
+        margin-top:-20px;
+    }
+    .old-3::before{
+        font-size: 10px;    
+        content:'Sep 2016';
+        margin-left:-60px;
+    }
+    .old-4::before{
+        font-size: 10px;
+        text-align: right;
+        content:'Present';
+        margin-left:-60px;
     }
 }
 
