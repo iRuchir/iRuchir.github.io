@@ -758,6 +758,8 @@ nav ul li a{
         margin-top:20px;
         border-radius: 5px;
         padding-bottom: 20px;;
+        margin-left:5px;
+        margin-right:5px;
     }
     .tools{
         font-size: 15px;
@@ -789,9 +791,8 @@ nav ul li a{
 
     .summary{
         background-color: #112130;
-        width:150px;
+        width:200px;
         padding:10px;
-        padding-bottom: 0px;
         border-radius: 5px;
         margin-left: 50px;
         position: relative;
@@ -811,7 +812,10 @@ nav ul li a{
         font-weight: normal;
     }
     #more{
-        margin-left: -25px;;
+        margin-left: 0px;;
+    }
+    .more-para{
+        margin-bottom: 0px;
     }
 
     #brief-1, #brief-2, #brief-3, #brief-4{
@@ -902,11 +906,14 @@ nav ul li a{
     .card{
         height: auto;
     }
+    #more{
+        margin-left: -25px;;
+    }
     .card-deck{
         text-align: center;
         margin: 0 auto;
         float: none;
-        margin-top:px;
+        margin-top:0px;
     }
     .card-body{
         padding-top:30px;
