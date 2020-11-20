@@ -515,6 +515,7 @@ div{
     border-radius: 3px;
     margin-left: 100px;
     font-size: 15px;
+    font-weight: normal;
     width: 800px;
     z-index: 3;
     height: auto;
