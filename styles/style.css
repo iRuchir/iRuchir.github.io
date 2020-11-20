@@ -1,5 +1,5 @@
 
-html,body{
+body{
     background-color: white;
 }
 
@@ -169,48 +169,27 @@ nav ul li a{
     color:#112130;
 }
 
-div{
-    display: block;
-}
 /* Responsibilities */
 .responsibilities{
+    height: 80vh;
 }
-
 .card-deck{
     text-align: center;
     margin: 0 auto;
     float: none;
+    margin-bottom: 10px;
     margin-top:50px;
-    margin-bottom:50px;
 }
-.card-img-top{
-    background-color: #000000;
-    padding: 10%;
-    /* border-bottom: 1px solid #000; */
-}
-.card-img-top-1{
-
-    background-image: linear-gradient(90deg,#77A1D3,#79CBCA);
-}
-.card-img-top-2{
-    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
-}
-.card-img-top-3{
-    background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
-}
-.card-img-top-4{
-    background-image: linear-gradient(90deg,#799F0C,#FFE000);
+.card{
+    height:250px;
 }
 .card-header{
     background-color: #112130;
     color:white;
 }
 .card-body{
+    padding-top:50px;
     color: white;
-    font-weight: bold;
-    display: flex;
-    text-align: left;
-    flex:1 1 auto;
 }
 .res-head{
     width: 100%;
@@ -222,16 +201,20 @@ div{
     background-image: linear-gradient(90deg,#0F2027,#203A43,#2C5364);
 }
 .card-1{
+    background-color: #F64747;
     background-image: linear-gradient(90deg,#77A1D3,#79CBCA);
 }
 .card-2{
+    background-color: #7850AB;
     background-image: linear-gradient(90deg,#cc2b5e,#753a88);
 }
 .card-3{
-    background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
+    background-color: #22A7F0;
+    background-image: linear-gradient(135deg,#9796f0,#fbc7d4);
 }
 .card-4{
-    background-image: linear-gradient(90deg,#799F0C,#FFE000);
+    background-color: #3A7877;
+    background-image: linear-gradient(135deg,#799F0C,#FFE000);
 }
 
 /* Skill Sets */
@@ -654,7 +637,12 @@ div{
         padding-top: 200px;
         margin-right: 5%;
     }
-    
+    .card{
+        height: 30vh;
+        margin-top:20px;
+    }
+}
+@media(max-width: 1140px){
     .Title{
         font-size: 30px;
     }
@@ -723,6 +711,8 @@ div{
         margin-top: 20px;
     }
 }
+
+
 @media(max-width: 840px){
     .header{
         height: 100vh;
@@ -798,7 +788,21 @@ div{
         height: 30px;
         font-size: 15px;
     }
- 
+}
+@media(max-width: 575px){
+    .card-header{
+        height:50px;
+    }
+    .card{
+        margin: 0px 5%;
+        height: 200px;
+    }
+    .card-deck{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        margin-top:1px;
+    }
     .perf-tool, .lang{
         height: fit-content;
         margin: 0 auto;
@@ -948,13 +952,26 @@ div{
         vertical-align: 100%;
     }
 }
-@media(max-width: 370px){
 
+
+
+@media(max-width: 370px){
+    .card{
+        height: auto;
+        width: 200px;
+    }
     #more{
         margin-left: -25px;;
     }
-
-
+    .card-deck{
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+        margin-top:0px;
+    }
+    .card-body{
+        padding-top:30px;
+    }
     #brief-1, #brief-2, #brief-3, #brief-4{
         padding:5px;
         font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
