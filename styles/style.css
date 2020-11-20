@@ -45,6 +45,9 @@ body{
     0% {opacity:0; padding-top: 450px;}
     100% {opacity:1;padding-top: 400px;}
 }
+.links a{
+    
+}
 .header{
     height: 100vh;
     background-image: url('../images/Home_denim_shadow_me.png');
