@@ -189,7 +189,6 @@ div{
     /* border-bottom: 1px solid #000; */
 }
 .card-img-top-1{
-
     background-image: linear-gradient(90deg,#77A1D3,#79CBCA);
 }
 .card-img-top-2{
@@ -422,7 +421,7 @@ div{
 .lineOfTime{
     border-left: 2px solid #112130;
     width: 1px;
-    margin-left:10%;
+    margin-left:18%;
     height: 1000px;;
     height:auto;
     position: relative;
