@@ -958,7 +958,9 @@ div{
         margin-left: -25px;;
     }
 
-
+    .res-header{
+        margin-top:30px;
+    }
     #brief-1, #brief-2, #brief-3, #brief-4{
         padding:5px;
         font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
