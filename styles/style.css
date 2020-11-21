@@ -414,45 +414,59 @@ div{
 }
 
 .blue{
-    color: #009FFC;
-    display: contents;
-    font-weight: bold;
+    background-color: #009FFC;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .red{
-    color:#EE2D4D;
-    display: contents;
-    font-weight: bold;
+    background-color:#EE2D4D;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .green{
-    color:#0DA909;
-    display: contents;
-    font-weight: bold;
+    background-color:#0DA909;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mustard{
-    color:#F49729;
-    display: contents;
-    font-weight: bold;
+    background-color:#F49729;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .deepblue{
-    color: #005194;
-    display: contents;
-    font-weight: bold;
+    background-color: #005194;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .aqua{
-    color: #00B5C0;
-    display: contents;
-    font-weight: bold;
+    background-color: #00B5C0;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .pink{
-    color:#F06B8C;
-    display: contents;
-    font-weight: bold;
+    background-color:#F06B8C;
+    padding: 1px 5px;
+    pointer-events: none;
+    outline: none;
+    border: none;
     font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
