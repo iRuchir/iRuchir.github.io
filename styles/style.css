@@ -274,116 +274,114 @@ div{
     text-align: left;
 }
 .splunk{
-    width:95%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:95%;
+    background-color: #009FFC;
 }
 .AppDynamics{
-    width:90%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:90%;
+    background-color: #009FFC;
 }
 .JVisualVM{
-    width:90%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:90%;
+    background-color: #009FFC;
 }
 .JConsole{
-    width:80%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:80%;
+    background-color: #009FFC;
 }
 .Dynatrace{
-    width:60%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:60%;
+    background-color: #009FFC;
 }
 .mat{
-    width:95%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    width:95%;
+    background-color:#7850AB;
+    background-color:#0DA909;
 }
 .tda{
     width:85%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#0DA909;
 }
 .gcmv{
     width:95%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#0DA909;
 }
 .JMeter{
-    width:85%;background-color:#2E5995;
-    background-image: linear-gradient(135deg,#1d4350,#a43931);
+    width:85%;background-color:#F49729;
 }
 .rpt{
-    width:60%;background-color:#2E5995;
-    background-image: linear-gradient(135deg,#1d4350,#a43931);
+    width:60%;background-color:#F49729;
 }
 .SVN{
-    width:80%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:80%;
+    background-color:#EE2D4D;
 }
 .PuTTY{
-    width:95%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:95%;
+    background-color:#EE2D4D;
 }
 .WinSCP{
-    width:95%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:95%;
+    background-color:#EE2D4D;
 }
 .Eclipse{
-    width:95%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:95%;
+    background-color:#EE2D4D;
 }
 .TeamTrack{
-    width:80%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:80%;
+    background-color:#EE2D4D;
 }
 .Grafana{
-    width:75%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:75%;
+    background-color: #009FFC;
 }
 .Java{
-    width:85%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:85%;
+    background-color: #005194;
 }
 .J2EE{
-    width:90%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:90%;
+    background-color: #005194;
 }
 .Shell{
-    width:75%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    width:75%;
+    background-color: #00B5C0;
 }
 .SQL{
     width:60%;background-color:#3A7877;
-    background-image: linear-gradient(135deg,#799F0C,#FFE000);
+    background-color: #00B5C0;
 }
 .SOAP{
-    width:85%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:85%;
+    background-color: #005194;
 }
 .REST{
-    width:85%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:85%;
+    background-color: #005194;
 }
 .html{
-    width:95%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    width:95%;background-color:#F06B8C;
 }
 .AJAX{
     width:60%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#F06B8C;
 }
 .MVC{
-    width:80%;background-color:#DF557A;
-    background-image: linear-gradient(135deg,#c471ed,#f64f59);
+    width:80%;
+    background-color: #005194;
 }
 .CSS{
     width:80%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#F06B8C;
 }
 .JavaScript{
     width:60%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#F06B8C;
 }
 .JSON{
     width:80%;background-color:#7850AB;
-    background-image: linear-gradient(135deg,#7F00FF,#E100FF);
+    background-color:#F06B8C;
 }
 
 .tool-set-1{
