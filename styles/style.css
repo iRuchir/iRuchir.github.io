@@ -413,6 +413,48 @@ div{
     border: 10px;;
 }
 
+.blue{
+    color: #009FFC;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.red{
+    color:#EE2D4D;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.green{
+    color:#0DA909;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mustard{
+    color:#F49729;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.deepblue{
+    color: #005194;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aqua{
+    color: #00B5C0;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pink{
+    color:#F06B8C;
+    display: contents;
+    font-weight: bold;
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /* Timeline */
 .timeline{
@@ -526,9 +568,8 @@ div{
     margin-top:20px;
     margin-left: -55px;
 }
-.dated{
 
-}
+
 .lineOfTime {
     content: '';
     position: relative;
@@ -566,6 +607,11 @@ div{
     color:#F64747;
 }
 
+span.highlight{
+    font-family: 'Myriad Pro', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    display:contents;
+}
 /* Footer */
 
 .footer{
