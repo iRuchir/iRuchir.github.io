@@ -189,16 +189,17 @@ div{
     /* border-bottom: 1px solid #000; */
 }
 .card-img-top-1{
-    background-image: linear-gradient(90deg,#77A1D3,#79CBCA);
+    background-image: linear-gradient( 90deg,  rgba(32,38,57,1) 11.4%, #2c3e50 70.2% );
 }
 .card-img-top-2{
-    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
+    background-image: linear-gradient(90deg,#1F1C18,#8E0E00 70%);
+    
 }
 .card-img-top-3{
-    background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
+    background-image: linear-gradient(90deg, #03001e,#7303c0);
 }
 .card-img-top-4{
-    background-image: linear-gradient(90deg,#799F0C,#FFE000);
+    background-image: linear-gradient( 90deg, #293100,#add100);
 }
 .card-header{
     background-color: #112130;
@@ -221,16 +222,16 @@ div{
     background-image: linear-gradient(90deg,#0F2027,#203A43,#2C5364);
 }
 .card-1{
-    background-image: linear-gradient(90deg,#77A1D3,#79CBCA);
+    background-image: linear-gradient( 90deg,  rgba(32,38,57,1) 11.4%, #2c3e50 70.2% );
 }
 .card-2{
-    background-image: linear-gradient(90deg,#cc2b5e,#753a88);
+    background-image: linear-gradient(90deg,#1F1C18,#8E0E00 70%);
 }
 .card-3{
-    background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
+    background-image: linear-gradient(90deg, #03001e,#7303c0);
 }
 .card-4{
-    background-image: linear-gradient(90deg,#799F0C,#FFE000);
+    background-image: linear-gradient( 90deg, #293100,#add100);
 }
 
 /* Skill Sets */
