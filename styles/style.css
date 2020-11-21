@@ -174,14 +174,14 @@ div{
 }
 /* Responsibilities */
 .responsibilities{
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .card-deck{
     text-align: center;
     margin: 0 auto;
     float: none;
-    margin-top:50px;
-    margin-bottom:50px;
 }
 .card-img-top{
     background-color: #000000;
@@ -234,6 +234,7 @@ div{
 }
 
 /* Skill Sets */
+
 .perf-tool, .lang{
     height: 600px;
     background-color: #112130;
