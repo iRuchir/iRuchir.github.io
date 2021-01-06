@@ -599,6 +599,11 @@ div{
     content:'Jan 2013';
     margin-left:-100px;
 }
+.old-01::before{
+    text-align: right;
+    content:'Sep 2014';
+    margin-left:-100px;
+}
 .old-1::before{
     text-align: right;
     content:'Mar 2014';
@@ -612,6 +617,11 @@ div{
 .old-3::before{
     text-align: right;
     content:'Sep 2016';
+    margin-left:-100px;
+}
+.old-03::before{
+    text-align: right;
+    content:'Oct 2016';
     margin-left:-100px;
 }
 .old-4::before{
