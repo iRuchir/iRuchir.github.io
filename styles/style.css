@@ -999,6 +999,13 @@ span.highlight{
         margin-left:-60px;
         vertical-align: 100%;
     }
+    .old-01::before{
+        font-size: 10px;
+        text-align: right;
+        content:'Sep 2014';
+        margin-left:-60px;
+        vertical-align: 100%;
+    }
     .old-2::before{
         font-size: 10px;
         text-align: right;
@@ -1009,6 +1016,13 @@ span.highlight{
     .old-3::before{
         font-size: 10px;    
         content:'Sep 2016';
+        text-align: right;
+        margin-left:-60px;
+        vertical-align: 100%;
+    }
+    .old-03::before{
+        font-size: 10px;    
+        content:'Oct 2016';
         text-align: right;
         margin-left:-60px;
         vertical-align: 100%;
