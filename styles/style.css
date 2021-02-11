@@ -313,7 +313,7 @@ div{
 .rpt{
     width:60%;background-color:#F49729;
 }
-.SVN{
+.Unix{
     width:80%;
     background-color:#EE2D4D;
 }
@@ -321,8 +321,8 @@ div{
     width:95%;
     background-color:#EE2D4D;
 }
-.WinSCP{
-    width:95%;
+.Linux{
+    width:80%;
     background-color:#EE2D4D;
 }
 .Eclipse{
